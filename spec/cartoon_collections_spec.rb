@@ -66,3 +66,9 @@ describe "Cartoon Collections" do
     end
   end
 end
+
+def roll_call_dwarves(dwarves)
+  dwarves.each_with_index do |dwarf, index|
+    puts "#{index + 1}. #{dwarf}"
+  end
+end
